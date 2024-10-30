@@ -312,76 +312,7 @@ chart.render();
 
 
     
-    // chart 5
-
-    var options = {
-        series: [{
-            name: "Desktops",
-            data: [14, 41, 35, 51, 25, 18, 21, 35, 15]
-        }],
-        chart: {
-            foreColor: "#9ba7b2",
-            height: 280,
-            type: 'bar',
-            toolbar: {
-                show: !1
-            },
-            sparkline: {
-                enabled: !1
-            },
-            zoom: {
-                enabled: false
-            }
-        },
-        dataLabels: {
-            enabled: false
-        },
-        stroke: {
-            width: 1,
-            curve: 'smooth'
-        },
-        plotOptions: {
-            bar: {
-                horizontal: false,
-                borderRadius: 4,
-                borderRadiusApplication: 'around',
-                borderRadiusWhenStacked: 'last',
-                columnWidth: '45%',
-            }
-        },
-        fill: {
-            type: 'gradient',
-            gradient: {
-                shade: 'dark',
-                gradientToColors: ['#009efd'],
-                shadeIntensity: 1,
-                type: 'vertical',
-                opacityFrom: 1,
-                opacityTo: 1,
-                stops: [0, 100, 100, 100]
-            },
-        },
-        colors: ["#2af598"],
-        grid: {
-            show: true,
-            borderColor: 'rgba(255, 255, 255, 0.1)',
-        },
-        xaxis: {
-            categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep'],
-        },
-        tooltip: {
-            theme: "dark",
-            marker: {
-                show: !1
-            }
-        },
-    };
-
-    var chart = new ApexCharts(document.querySelector("#chart5"), options);
-    chart.render();
-
-
-
+   
     
     // chart 6
     var options = {
