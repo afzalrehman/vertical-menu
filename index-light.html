@@ -1425,11 +1425,10 @@
   <script src="assets/js/jquery.min.js"></script>
   <!--plugins-->
   <script src="assets/plugins/perfect-scrollbar/js/perfect-scrollbar.js"></script>
-  <script src="assets/plugins/metismenu/metisMenu.min.js"></script>
+  <!-- <script src="assets/plugins/metismenu/metisMenu.min.js"></script> -->
   <script src="assets/plugins/apexchart/apexcharts.min.js"></script>
   <script src="assets/plugins/simplebar/js/simplebar.min.js"></script>
   <script src="assets/plugins/peity/jquery.peity.min.js"></script>
-  <!-- <script src="assets/js/data-widgets.js"></script> -->
   <script>
     $(".data-attributes span").peity("donut")
   </script>
@@ -1508,90 +1507,6 @@
     chart.render();
 
 
-
-    // chart 5
-
-    var options = {
-      series: [78],
-      chart: {
-        height: 180,
-        type: 'radialBar',
-        toolbar: {
-          show: false
-        }
-      },
-      plotOptions: {
-        radialBar: {
-          startAngle: -115,
-          endAngle: 115,
-          hollow: {
-            margin: 0,
-            size: '80%',
-            background: 'transparent',
-            image: undefined,
-            imageOffsetX: 0,
-            imageOffsetY: 0,
-            position: 'front',
-            dropShadow: {
-              enabled: false,
-              top: 3,
-              left: 0,
-              blur: 4,
-              opacity: 0.24
-            }
-          },
-          track: {
-            background: '#00C333',
-            strokeWidth: '67%',
-            margin: 0, // margin is in pixels
-            dropShadow: {
-              enabled: false,
-              top: -3,
-              left: 0,
-              blur: 4,
-              opacity: 0.35
-            }
-          },
-
-          dataLabels: {
-            show: true,
-            name: {
-              offsetY: -10,
-              show: false,
-              color: '#00C333',
-              fontSize: '17px'
-            },
-            value: {
-              offsetY: 10,
-              color: '#00C333',
-              fontSize: '24px',
-              show: true,
-            }
-          }
-        }
-      },
-      fill: {
-        type: 'color',
-        gradient: {
-          shade: 'dark',
-          type: 'horizontal',
-          shadeIntensity: 0.5,
-          gradientToColors: ['#00C333'],
-          inverseColors: true,
-          opacityFrom: 1,
-          opacityTo: 1,
-          stops: [0, 100]
-        }
-      },
-      colors: ["#034EA2"],
-      stroke: {
-        lineCap: 'round'
-      },
-      labels: ['Total Orders'],
-    };
-
-    var chart = new ApexCharts(document.querySelector("#chart5"), options);
-    chart.render();
 
 
 
