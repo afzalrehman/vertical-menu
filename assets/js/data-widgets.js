@@ -318,7 +318,7 @@ $(function () {
                     }
                 },
                 track: {
-                    background: 'rgba(0, 0, 0, 0.1)',
+                    background: '#034EA2',
                     strokeWidth: '67%',
                     margin: 0, // margin is in pixels
                     dropShadow: {
@@ -335,12 +335,12 @@ $(function () {
                     name: {
                         offsetY: -10,
                         show: false,
-                        color: '#888',
+                        color: '#034EA2',
                         fontSize: '17px'
                     },
                     value: {
                         offsetY: 10,
-                        color: '#111',
+                        color: '#034EA2',
                         fontSize: '24px',
                         show: true,
                     }
@@ -353,14 +353,14 @@ $(function () {
                 shade: 'dark',
                 type: 'horizontal',
                 shadeIntensity: 0.5,
-                gradientToColors: ['#ffd200'],
+                gradientToColors: ['#034EA2'],
                 inverseColors: true,
                 opacityFrom: 1,
                 opacityTo: 1,
                 stops: [0, 100]
             }
         },
-        colors: ["#ee0979"],
+        colors: ["#034EA2"],
         stroke: {
             lineCap: 'round'
         },
@@ -401,7 +401,7 @@ $(function () {
             type: 'gradient',
             gradient: {
                 shade: 'dark',
-                gradientToColors: ['#0866ff'],
+                gradientToColors: ['#034EA2'],
                 shadeIntensity: 1,
                 type: 'vertical',
                 opacityFrom: 0.5,
@@ -410,7 +410,7 @@ $(function () {
             },
         },
 
-        colors: ["#02c27a"],
+        colors: ["#034EA2"],
         tooltip: {
             theme: "dark",
             fixed: {
@@ -683,16 +683,16 @@ $(function () {
 
     var options = {
         series: [{
-            name: "Sales",
+            name: "Previous Batch",
             data: [20, 5, 60, 10, 30, 20, 25, 15, 31]
         },
         {
-            name: "Views",
+            name: "Current Batch",
             data: [17, 10, 45, 15, 25, 15, 40, 10, 24]
         }],
         chart: {
             //width:150,
-            foreColor: "#9ba7b2",
+            foreColor: "#034EA2",
             height: 235,
             type: 'bar',
             toolbar: {
@@ -714,10 +714,10 @@ $(function () {
             colors: ['transparent']
         },
         fill: {
-            type: 'gradient',
+            type: 'color',
             gradient: {
                 shade: 'dark',
-                gradientToColors: ['#ffd200', '#00c6fb'],
+                gradientToColors: ['#00C333', '#034EA2'],
                 shadeIntensity: 1,
                 type: 'vertical',
                 //opacityFrom: 0.8,
@@ -725,7 +725,7 @@ $(function () {
                 stops: [0, 100, 100, 100]
             },
         },
-        colors: ['#ff6a00', "#005bea"],
+        colors: ['#00C333', "#034EA2"],
         plotOptions: {
             bar: {
                 horizontal: false,
@@ -989,7 +989,7 @@ $(function () {
                 stops: [0, 100, 100, 100]
             },
         },
-        colors: ["#98ec2d"],
+        colors: ["#00C333"],
         grid: {
             show: true,
             borderColor: 'rgba(255, 255, 255, 0.15)',
